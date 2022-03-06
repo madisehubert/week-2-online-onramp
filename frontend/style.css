@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #AA336A;
+  
+}
+.main{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.card{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  transform: translate(-50%, -50%);
+  background-color: #2B2D2F;
+  border-radius: 3%;
+  display: flex;
+}
+.card-title h3{
+  color: #AA336A;
+  font-size: 12px;
+  padding: 20px 10px;
+
+}
+.title{
+  text-decoration: underline;
+}
+.input-field{
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #A9A9A9;
+  font-size: 10px;
+}
+#message{
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #A9A9A9;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.submit{
+  border: none;
+  background: transparent;
+  width: 180px;
+  color: #AA336A;
+  font-size: 10px;
+}
